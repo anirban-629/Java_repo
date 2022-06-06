@@ -1,4 +1,3 @@
-package testing;
 interface ab{
     int a=100;
 }

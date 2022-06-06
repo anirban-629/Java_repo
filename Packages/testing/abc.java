@@ -9,7 +9,7 @@ public class abc {
     int d=10000;
 
     public void setval(int n) {
-        this.ans = n +b+ 500;
+        this.ans = n + 500;
     }
 
     public void getval() {
