@@ -1,15 +1,19 @@
 package testing;
 
+
 public class abc {
-    private int ba = 100;
+    public int ans;
     public int a = 10;
+    private int b = 100;
+    protected int c=1000;
+    int d=10000;
 
     public void setval(int n) {
-        this.a = n + ba;
+        this.ans = n +b+ 500;
     }
 
     public void getval() {
-        System.out.println("Value given by you is: " + this.a);
+        System.out.println("Value given by you is: " + this.ans);
 }
 
     public static void main(String[] args) {
