@@ -11,6 +11,7 @@ class emp{
         name=n;
     }
 }
+
 public class _00_1introduction {
     public static void main(String[] args) {
         emp e1=new emp();
