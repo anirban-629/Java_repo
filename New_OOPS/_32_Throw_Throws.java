@@ -12,7 +12,7 @@ public class _32_Throw_Throws {
         // Scanner sc= new Scanner(System.in);
         if (a < 20) {
             try {
-                System.out.println(a);
+                // System.out.println(a);
                 throw new wrongInp();
             } catch (wrongInp e) {
                 System.out.println(e.getMessage());

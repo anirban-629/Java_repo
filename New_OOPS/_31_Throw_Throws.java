@@ -24,28 +24,37 @@ class UnknownResult extends Exception {
 
 public class _31_Throw_Throws {
     public static int divide(int a, int b) throws UnknownResult {
-        int c = a / b;
-        return c;
+        if (b == 0) {
+            throw new UnknownResult();
+        } else {
+            int c = a / b;
+            return c;
+        }
     }
 
     public static double area(int r) throws NegRadiusException {
-        double ar = Math.PI * r * r;
-        return ar;
+        if (r < 0) {
+            throw new NegRadiusException();
+        } else {
+            double ar = Math.PI * r * r;
+            return ar;
+        }
     }
 
     public static void main(String[] args) {
-        // int divide;
+        int divide;
         double result;
-        // try {
-        //     divide = divide(10, 0);
-        //     System.out.println("DIVIDE: " + divide);
-        // } catch (UnknownResult e1) {
-        //     System.out.println(e1.getMessage());
-        // }
         
         try {
-            result=area(-10);
-            System.out.println("AREA: "+result);
+        divide = divide(10, 0);
+        System.out.println("DIVIDE: " + divide);
+        } catch (UnknownResult e1) {
+        System.out.println(e1.getMessage());
+        }
+
+        try {
+            result = area(-10);
+            System.out.println("AREA: " + result);
         } catch (NegRadiusException e2) {
             System.out.println(e2.getMessage());
         }
