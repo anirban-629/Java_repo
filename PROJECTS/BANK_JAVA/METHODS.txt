@@ -1,0 +1,20 @@
+public void cust() {
+        System.out.println("CUSTOMER");
+        int nwOrOld = customerNewOrExisting();
+        if (nwOrOld == 1) {
+            System.out.println("New CUSTOMER");
+        } else {
+            System.out.println("Existing CUSTOMER");
+        }
+}
+
+public int customerNewOrExisting() {
+        Scanner sc2 = new Scanner(System.in);
+        int a;
+        System.out.println("New Customer       --->> 1");
+        System.out.println("Existing Customer  --->> 2");
+        System.out.print("----->> ");
+        a = sc2.nextInt();
+        sc2.close();
+        return a;
+    }

@@ -1,0 +1,53 @@
+*** Create a file to store all User_Name Password
+
+1. Welcome
+2. Customer / Staff
+3. If Customer {
+    1. Check if Existing or Not
+    2. If Existing {
+        1. INPUT --> User_Name
+        2. INPUT --> Password
+        3. Verify
+        4. If Customer {
+            1. Check Balance
+            2. Withdraw {
+                    1. Balance <- Balance-Withdrawl
+                    2. Save Transaction With Date Time
+            }
+            3. Show Transactions
+            4. Show Account Credentials
+        }
+        5. If not Customer{
+            EXIT
+        }
+    }
+    3. If Not Existing{
+        1. Create Account{
+            1. INPUT{
+                1. Name of Account Holder
+                2. Name of Nominee
+                3. Email 
+                4. Phone Number
+                5. Time of Opening
+                6. Amount
+                7. ID
+                8. Date of Birth
+                9. Marital Status
+            }
+            2. Create Name.txt file{
+                Load <-- all the Credentials
+            }
+        } 
+    }        
+}
+4. If Employee{
+    1. Check if Employee or Not
+    2. If Employee {
+        1. INPUT --> User_Name
+        2. INPUT --> Password
+        3. Verify
+        4. If Employee {
+            HE CAN EDIT EVERY THING ...... Will Update soon
+        }
+    }
+}
