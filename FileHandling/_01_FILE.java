@@ -42,11 +42,11 @@ public class _01_FILE {
 
         // Deleting a file
 
-        File dFile = new File("File2.txt");
-        if (dFile.delete()) {
-            System.out.println(dFile + " Deleted Successfully..");
-        } else {
-            System.out.println("Some error occurred");
-        }
+        // File dFile = new File("File2.txt");
+        // if (dFile.delete()) {
+        //     System.out.println(dFile + " Deleted Successfully..");
+        // } else {
+        //     System.out.println("Some error occurred");
+        // }
     }
 }
