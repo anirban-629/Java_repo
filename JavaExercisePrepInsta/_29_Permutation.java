@@ -1,4 +1,4 @@
-package com.practice;
+
 public class _29_Permutation{
     public static int factorial(int n){
         if(n==0){

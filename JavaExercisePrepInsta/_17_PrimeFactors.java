@@ -1,4 +1,3 @@
-package com.practice;
 public class _17_PrimeFactors {
     public static boolean isPrime(int n){
         for (int i = 2; i <=Math.sqrt(n); i++) {

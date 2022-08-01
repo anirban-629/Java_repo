@@ -1,4 +1,3 @@
-package com.practice;
 public class _03_Sum_inRange {
     public static void main(String[] args) {
         int start=10;

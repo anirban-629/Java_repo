@@ -1,4 +1,4 @@
-package com.practice;
+
 public class _23_AbundantNumber {
     public static void main(String[] args) {
         int n = 12, sum = 0;

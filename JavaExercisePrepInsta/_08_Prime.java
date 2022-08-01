@@ -1,4 +1,3 @@
-package com.practice;
 public class _08_Prime {
     public static void main(String[] args) {
         int num=9;

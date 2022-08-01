@@ -1,4 +1,3 @@
-package com.practice;
 public class _18_StrongNumber {
 
     public static int fact(int n) {

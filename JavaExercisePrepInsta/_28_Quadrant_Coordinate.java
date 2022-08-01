@@ -1,4 +1,4 @@
-package com.practice;
+
 public class _28_Quadrant_Coordinate {
     public static void main(String[] args) {
         int x = 0, y = 0;

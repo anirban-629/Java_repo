@@ -1,4 +1,3 @@
-package com.practice;
 public class _16_Factorial {
     public static int fact(int n){
         if(n==0){

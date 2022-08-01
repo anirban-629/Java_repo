@@ -1,4 +1,4 @@
-package com.practice;
+
 public class _24_FriendlyPair {
     public static int getDivisorsSum(int num) {
 

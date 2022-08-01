@@ -1,4 +1,4 @@
-package com.practice;
+
 public class _26_LCM {
  public static void main(String[] args) {
     int a=12,b=14,lcm=0;

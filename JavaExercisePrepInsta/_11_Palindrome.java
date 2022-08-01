@@ -1,4 +1,3 @@
-package com.practice;
 public class _11_Palindrome {
     public static void main(String[] args) {
         int num = 121;

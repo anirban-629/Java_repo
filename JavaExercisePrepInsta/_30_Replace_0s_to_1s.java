@@ -1,4 +1,3 @@
-package com.practice;
 
 public class _30_Replace_0s_to_1s {
     public static int reverse(int n){

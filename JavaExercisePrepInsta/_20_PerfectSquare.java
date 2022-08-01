@@ -1,4 +1,3 @@
-package com.practice;
 public class _20_PerfectSquare {
     public static void main(String[] args) {
         int n = 49;

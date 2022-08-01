@@ -1,4 +1,3 @@
-package com.practice;
 public class _07_LeapYear {
     public static void ifElse(int y) {
         if(y%400==0){

@@ -1,4 +1,3 @@
-package com.practice;
 public class _13_ArmstrongInRange {
     public static int len(int a) {
         int temp1 = a, len = 0;

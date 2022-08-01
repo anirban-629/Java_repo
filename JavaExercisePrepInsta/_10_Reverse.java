@@ -1,4 +1,3 @@
-package com.practice;
 public class _10_Reverse {
     public static void main(String[] args) {
         int num = 12345;

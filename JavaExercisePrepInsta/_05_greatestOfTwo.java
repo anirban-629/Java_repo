@@ -1,4 +1,3 @@
-package com.practice;
 public class _05_greatestOfTwo {
     public static void main(String[] args) {
         int a=20;

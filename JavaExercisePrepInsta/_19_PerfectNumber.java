@@ -1,4 +1,3 @@
-package com.practice;
 public class _19_PerfectNumber {
     public static void main(String[] args) {
         int n = 28, sum = 0;

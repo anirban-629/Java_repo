@@ -1,4 +1,3 @@
-package com.practice;
 public class _21_AutomorphicNumber {
 
     static int isAutomorphic(int n){

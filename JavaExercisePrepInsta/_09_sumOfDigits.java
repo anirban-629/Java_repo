@@ -1,4 +1,3 @@
-package com.practice;
 public class _09_sumOfDigits {
     public static void main(String[] args) {
         int num=12345;

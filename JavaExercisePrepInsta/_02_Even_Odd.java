@@ -1,4 +1,3 @@
-package com.practice;
 public class _02_Even_Odd{
     public static void main(String[] args) {
         int a=1;

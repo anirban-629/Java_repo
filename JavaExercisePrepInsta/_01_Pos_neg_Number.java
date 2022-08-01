@@ -1,4 +1,4 @@
-package com.practice;
+
 public class _01_Pos_neg_Number {
  public static void main(String[] args) {
     int a=-10;

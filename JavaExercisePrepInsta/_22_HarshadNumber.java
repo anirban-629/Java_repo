@@ -1,4 +1,4 @@
-package com.practice;
+
 public class _22_HarshadNumber {
     public static void main(String[] args) {
         int n = 18, rem, sum = 0;
