@@ -7,8 +7,8 @@ class emp{
     public String getName(){
         return name;
     }
-    public void getSetname(String n){
-        name=n;
+    public void getSetname(String name){
+        this.name=name;
     }
 }
 

@@ -23,7 +23,7 @@ A collection of practice code files for JAVA Programming Language.
 
 <br>
 
-2. I've Used [VS Code](https://code.visualstudio.com/) and [Code Blocks](https://www.codeblocks.org/downloads/) for writing Code
+2. I've Used [VS Code](https://code.visualstudio.com/) for writing Code
 
 ## **Usage**
 

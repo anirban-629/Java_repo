@@ -30,7 +30,7 @@ public class _02Constructur {
 
         // employee e1=new employee();
 
-        employee e1=new employee(100,"ANIRBAN MISHRA","A!B@C#D$");
+         employee e1=new employee(100,"ANIRBAN MISHRA","A!B@C#D$");
 
         // e1.setId(100213);
         // e1.setName("Anirban Mishra");

@@ -10,7 +10,7 @@ class a {
 class b extends a{
 
     @Override //for catching errors we use this
-
+        
     public void seta(int a) {
         this.a = a;
         System.out.println("Set value of a in B is: "+a);
