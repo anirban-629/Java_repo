@@ -3,7 +3,7 @@
 class anirban extends Thread {
     int i = 0;
 
-    // @Override
+    @Override
     public void run() {
         while (i < 50) {
             System.out.println("METH1");
@@ -15,7 +15,7 @@ class anirban extends Thread {
 class rahul extends Thread {
     int i = 0;
 
-    // @Override
+    @Override
     public void run() {
         while (i < 50) {
             System.out.println("METH2");

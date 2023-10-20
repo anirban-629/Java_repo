@@ -18,9 +18,8 @@ public class _30_Exceptions_2 {
             } catch (Exception e) {
                 System.out.println(e.getMessage());
             }
-        }
-        else{
-            System.out.println("Age is: "+age);
+        } else {
+            System.out.println("Age is: " + age);
         }
     }
 }

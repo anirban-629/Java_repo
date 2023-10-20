@@ -44,12 +44,12 @@ public class _31_Throw_Throws {
     public static void main(String[] args) {
         int divide;
         double result;
-        
+
         try {
-        divide = divide(10, 0);
-        System.out.println("DIVIDE: " + divide);
+            divide = divide(10, 0);
+            System.out.println("DIVIDE: " + divide);
         } catch (UnknownResult e1) {
-        System.out.println(e1.getMessage());
+            System.out.println(e1.getMessage());
         }
 
         try {

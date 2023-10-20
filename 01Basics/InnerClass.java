@@ -1,4 +1,5 @@
-package Main.Practice;
+package Main.Codes;
+
 import java.util.Scanner;
 
 class InnerClass {

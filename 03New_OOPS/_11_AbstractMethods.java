@@ -15,7 +15,8 @@ class samsung extends phone{
     }
 
     public void description(){
-        System.out.println("Samsung Description"); //----> ONLY MAKING THIS METHOD WILL THROW A ERROR  AS IT EXTENDES A BASE ABSTRACT CLASS AND NO ABSTRACT METHODS ARE CALLED HERE.
+        System.out.println("Samsung Description"); 
+        //----> ONLY MAKING THIS METHOD WILL THROW A ERROR  AS IT EXTENDES A BASE ABSTRACT CLASS AND NO ABSTRACT METHODS ARE CALLED HERE.
     }
 }
 
